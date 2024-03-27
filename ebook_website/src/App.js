@@ -1,14 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
-import Login from './components/Login';
-const Title =() => <h1>login เข้าใช้งาน</h1>
-const Description =() => <p>user ที่ทำการ register เเล้ว</p>
+import Navbar from './components/Navbar';
+import Menu from './components/Menu';
+import ComicNovels from './components/ComicNovels';
+import Support from './components/Support';
+import Sciences from './components/Sciences';
+import Business from './components/Business';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 function App() {
   return (
-    <div>
-      <Title/>
-      <Description/>
-    </div>
+    <BrowserRouter>
+      <Navbar /> {/* นี่คือคอมโพเนนต์ Navbar ที่ควรจะเป็นส่วนหนึ่งของ layout ไม่ใช่ของ Routes */}
+      <Routes>
+        <Route path="/" element={<Menu />} />
+        <Route path="/ComicNovels" element={<ComicNovels />} />
+        <Route path="/Support" element={<Support />} />
+        <Route path="/Sciences" element={<Sciences />} />
+        <Route path="/Business" element={<Business />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
