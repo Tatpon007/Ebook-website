@@ -4,7 +4,7 @@ function Menu() {
   return (
     <div className='bg-white-300 text-dark'>
       <div className='mx-auto text-center font-serif '>
-        <a href="https://www.facebook.com" className="mx-10 text-xl">Home</a>
+        <Link to="/Home" className="mx-10 text-xl">Home</Link>
         <Link to="/ComicNovels" className="mx-10 text-xl">Comic&Novels</Link>
         <Link to="/Sciences" className="mx-10 text-xl">Sciences</Link>
         <Link to="/Business" className="mx-10 text-xl">Business and Economics</Link>
