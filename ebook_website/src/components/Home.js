@@ -13,6 +13,60 @@ function Home() {
       <div className='font-serif 'style={{ marginLeft: '50rem', marginTop: '2rem'}}>
         <h2 className='text-4xl'>ALL E-BOOKS</h2>
       </div>
+
+      <div className='cropped-image'>
+        <img src='https://via.placeholder.com/192x280' alt='Book Cover'  />
+        <div className='title text-xl'>
+          รายละเอียด
+        </div>
+        <div> 
+        <button className="btn-details ">ราคา</button>
+        </div>
+      </div>
+ 
+
+      <div className='cropped-image'>
+        <img src='https://via.placeholder.com/192x280' alt='Book Cover'  />
+        <div className='title text-xl'>
+          รายละเอียด
+        </div>
+        <div> 
+        <button className="btn-details2 ">ราคา</button>
+        </div>
+      </div>
+
+      <div className='cropped-image'>
+        <img src='https://via.placeholder.com/192x280' alt='Book Cover'  />
+        <div className='title text-xl'>
+          รายละเอียด
+        </div>
+        <div> 
+        <button className="btn-details3">ราคา</button>
+        </div>
+      </div>
+
+      <div className='cropped-image'>
+        <img src='https://via.placeholder.com/192x280' alt='Book Cover'  />
+        <div className='title text-xl'>
+          รายละเอียด
+        </div>
+        <div> 
+        <button className="btn-details4 ">ราคา</button>
+        </div>
+      </div>
+
+      <div className='cropped-image'>
+        <img src='https://via.placeholder.com/192x280' alt='Book Cover'  />
+        <div className='title text-xl'>
+          รายละเอียด
+        </div>
+        <div> 
+        <button className="btn-details5 ">ราคา</button>
+        </div>
+      </div>
+ 
+      
+
     </div>
   );
 }
