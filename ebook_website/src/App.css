@@ -75,3 +75,32 @@
   .ระยะห่างระหว่างช่องebookแถว5{
     margin-top:-2213px;
   }
+
+  .sup{
+    width: 820px; /* ปรับขนาดของรูปภาพตามที่ต้องการ */
+    height: 393px; /* ปรับขนาดของรูปภาพตามที่ต้องการ */
+    border-radius: 10px; /* เพิ่มขอบมนเข้าไป */
+    border: 2px solid black; /* เพิ่มเส้นขอบสีดำ */
+    margin-left: 600px;
+    margin-top: 50px;
+  }
+  .ข้อความ{
+    margin-left: 200px;
+    margin-top: 50px;
+  }
+
+  .SEND{
+    padding: 15px;
+    background-color: #3EBB1F;
+    color: white;
+    font-size: medium;
+    border-style: none;
+    border-radius: 15rem;
+    box-shadow: 10px 10px 36px -10px rgba(0,0,0,0.75);
+    outline: none;
+    top: 20; /* จุดเริ่มต้นจากขอบบนของ .cropped-image */
+    right: 8; /* ปรับตำแหน่งให้ชิดขอบขวาของ .cropped-image */
+  }
+  .SEND:active {
+    background-color: #35C290;
+  }

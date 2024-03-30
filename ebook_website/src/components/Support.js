@@ -10,9 +10,29 @@ function Support() {
         <Link to="/Business" className="mx-10 text-xl">Business and Economics</Link>
         <Link to="/Support" className="mx-10 text-xl">Customer Support</Link>
       </div>
-      <div className='font-serif    'style={{ marginLeft: '50rem', marginTop: '2rem'}}>
-        <h2 className='text-4xl'>ALL E-BOOKS</h2>
+      <div className='font-serif'style={{ marginLeft: '50rem', marginTop: '2rem'}}>
+        <h2 className='text-4xl'>CUSTOMER SUPPORT</h2>
       </div>
+
+      <div className='sup'>
+        <div className='ข้อความ'>
+          <h1 className='text-2xl'>
+            Problem Title
+          </h1>
+          <input type="text" id="search-navbar" className="block w-full p-3 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search E-Books"style={{ width: '25rem' }}/>
+          <h2 className='text-2xl'>
+            Description
+          </h2>
+          <input type="text" id="search-navbar" className="block w-full p-10 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search E-Books"style={{ width: '25rem' }}/>
+        </div>
+
+        <div>
+          <button className="SEND ">ราคา</button>
+        </div>
+
+
+      </div>
+
     </div>
   );
 }

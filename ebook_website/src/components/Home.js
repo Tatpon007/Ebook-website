@@ -14,6 +14,7 @@ function Home() {
         <h2 className='text-4xl'>ALL E-BOOKS</h2>
       </div>
 
+      
       <div className='ระยะห่างระหว่างช่องebookแถว1'>
         <div className='cropped-image'>
           <img src='https://via.placeholder.com/192x280' alt='Book Cover'  />
