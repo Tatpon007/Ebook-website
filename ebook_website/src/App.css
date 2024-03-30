@@ -89,18 +89,21 @@
     margin-top: 50px;
   }
 
-  .SEND{
-    padding: 15px;
+  .SEND {
+    padding: 20px 120px;
     background-color: #3EBB1F;
     color: white;
     font-size: medium;
     border-style: none;
+    
     border-radius: 15rem;
     box-shadow: 10px 10px 36px -10px rgba(0,0,0,0.75);
     outline: none;
-    top: 20; /* จุดเริ่มต้นจากขอบบนของ .cropped-image */
-    right: 8; /* ปรับตำแหน่งให้ชิดขอบขวาของ .cropped-image */
-  }
+    position: relative; /* กำหนดให้เป็น relative position */
+    right: -260px; /* เลื่อนไปทางขวา */
+    margin-top: 20px;
+}
+
   .SEND:active {
     background-color: #35C290;
   }
