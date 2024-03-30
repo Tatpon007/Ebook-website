@@ -107,3 +107,25 @@
   .SEND:active {
     background-color: #35C290;
   }
+
+
+.submit{
+  padding: 15px 50px;
+  background-color: #3EBB1F;
+  color: white;
+  font-size: medium;
+  border-style: none;
+  border-radius: 15rem;
+  box-shadow: 10px 10px 36px -10px rgba(0,0,0,0.75);
+  outline: none;
+}
+.Re{
+  padding: 15px;
+  background-color: #3EBB1F;
+  color: white;
+  font-size: medium;
+  border-style: none;
+  border-radius: 15rem;
+  box-shadow: 10px 10px 36px -10px rgba(0,0,0,0.75);
+  outline: none;
+}
