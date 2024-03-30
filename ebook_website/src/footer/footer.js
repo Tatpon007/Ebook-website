@@ -8,55 +8,69 @@ const Footer =()=>{
             <div className="sb_footer section_padding">
                 <div className="sb_footer-links">
                     <div className="sb_footer-links-div">
-                        <h4>For Business</h4>  
-                        <a href="/employer">
-                            <p>Employer</p>
+                        <h4>Categories</h4>  
+                        <a href="/comics and Novels">
+                            <p>Comics and Novels</p>
                             </a>
-                        <a href="/Healthplan">
-                            <p>Health Plan</p>
+                        <a href="/sciences">
+                            <p>Sciences</p>
                             </a>
-                        <a href="/Individual">
-                            <p>Individual</p>
+                        <a href="/bussiness and Economics">
+                            <p>Bussiness and Economics</p>
                         </a>                                       
                     </div>
                     <div className="sb_footer-links-div">
-                        <h4>Resource</h4>
-                        <a href="/resource">
-                            <p>Resource center</p>
+                        <h4>Help</h4>
+                        <a href="/FAQ">
+                            <p>FAQ</p>
                         </a>
-                        <a href="/resource">
-                            <p>Testimonials</p>
+                        <a href="/term of use">
+                            <p>Term of use</p>
                         </a>
-                        <a href="/resource">
-                            <p>STV</p>
+                        <a href="/privacy policy">
+                            <p>Privacy policy</p>
                         </a>
                         </div>
                         <div className="sb_footer-links-div">
-                        <h4>Partners</h4>
+                        <h4>About us</h4>
                         <a href="/employer">
-                            <p>Swing Tech</p>
+                            <p>Location</p>
                         </a>
                      </div>
                     <div className="sb_footer-links-div"> 
-                         <h4>Company</h4>
+                         <h4>Contact</h4>
                         <a href="/about">
-                        <p>About</p>
+                        <p>Facebook</p>
                         </a>
                         <a href="/press">
-                            <p>Press</p>
+                            <p>Instagram</p>
                             </a>
                         <a href="/career">
-                            <p>Career</p>
+                            <p>Twitter</p>
                             </a>
                             <a href="/contact">
-                            <p>Contact</p>
+                            <p>Thread</p>
                             </a>
                     </div>
             </div>
         </div>
         
         <hr></hr>
-     </div>
+        <div className ="sb_footer-below">
+            <div className="sb_footer-copyright">
+            <p>
+                @{new Date().getFullYear()} CodeInn. All right reserved.
+            </p>
+            </div>
+            <div className="sb_foot-below-links">
+                <a href="/terms"><div><p>Terms & Conditions</p></div></a>
+                <a href="/privacy"><div><p>Privacy</p></div></a>
+                <a href="/security"><div><p>Security</p></div></a>
+                <a href="/cookie"><div><p>Cookie Declaration</p></div></a>
+            </div>
+        </div>
+
+        </div>
     )
 }
 
