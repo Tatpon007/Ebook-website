@@ -7,6 +7,7 @@ import Support from './components/Support';
 import Sciences from './components/Sciences';
 import Business from './components/Business';
 import Home from './components/Home';
+import Product from './Product/product';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
+        <Route path="/product" element={<Product />} />
         <Route path="/" element={<Menu />} />
         <Route path="/ComicNovels" element={<ComicNovels />} />
         <Route path="/Support" element={<Support />} />

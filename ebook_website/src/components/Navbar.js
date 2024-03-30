@@ -8,7 +8,7 @@ function Navbar() {
 
   const openModal = () => {
     setModalIsOpen(true);
-    setIsRegistering(false);
+    setIsRegistering(false);//
   };
 
   const closeModal = () => {
@@ -18,7 +18,7 @@ function Navbar() {
 
   const openRE = () => {
     setModalIsOpens(true);
-    setIsRegistering(true);
+    setIsRegistering(true);//
   };
 
   const closeRE = () => {
