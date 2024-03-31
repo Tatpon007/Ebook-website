@@ -10,274 +10,334 @@ function ComicNovels() {
         <Link to="/Business" className="mx-10 text-xl">Business and Economics</Link>
         <Link to="/Support" className="mx-10 text-xl">Customer Support</Link>
       </div>
-      <div className='font-serif    'style={{ marginLeft: '55rem', marginTop: '2rem'}}>
-        <h2 className='text-4xl'>ALL E-BOOKS</h2>
-      </div>
+     
+      <div className='container mx-auto'>
 
-      <div className='ระยะห่างระหว่างช่องebookแถว1'>
-        <div className='cropped-image'>
-          <img src='https://via.placeholder.com/192x280' alt='Book Cover'  />
-          <div className='title text-xl'>
-            รายละเอียด
-          </div>
-          <div> 
-          <button className="btn-details ">ราคา</button>
-          </div>
-        </div>
-  
-
-        <div className='cropped-image'>
-          <img src='https://via.placeholder.com/192x280' alt='Book Cover'  />
-          <div className='title text-xl'>
-            รายละเอียด
-          </div>
-          <div> 
-          <button className="btn-details ">ราคา</button>
-          </div>
+        <div className='font-serif text-center'>
+          <h2 className='text-4xl'>ALL E-BOOKS</h2>
         </div>
 
-
-        <div className='cropped-image'>
-          <img src='https://via.placeholder.com/192x280' alt='Book Cover'  />
-          <div className='title text-xl'>
-            รายละเอียด
+        <div className='ระยะห่างระหว่างช่องebookแถว1'>
+          <div className='cropped-image'>
+            <img src='https://via.placeholder.com/192x280' alt='Book Cover' />
+            <div className='title text-xl'>
+              รายละเอียด
+            </div>
+            <div>
+              <button className="btn-details ">ราคา</button>
+            </div>
           </div>
-          <div> 
-          <button className="btn-details">ราคา</button>
-          </div>
-        </div>
-
-        <div className='cropped-image'>
-          <img src='https://via.placeholder.com/192x280' alt='Book Cover'  />
-          <div className='title text-xl'>
-            รายละเอียด
-          </div>
-          <div> 
-          <button className="btn-details ">ราคา</button>
-          </div>
-        </div>
-
-        <div className='cropped-image'>
-          <img src='https://via.placeholder.com/192x280' alt='Book Cover'  />
-          <div className='title text-xl'>
-            รายละเอียด
-          </div>
-          <div> 
-          <button className="btn-details ">ราคา</button>
-          </div>
-        </div>
-      </div>
 
 
-      <div className='ระยะห่างระหว่างช่องebookแถว2'>
-        <div className='cropped-image2'>
-          <img src='https://via.placeholder.com/192x280' alt='Book Cover'  />
-          <div className='title text-xl'>
-            รายละเอียด
+          <div className='cropped-image'>
+            <img src='https://via.placeholder.com/192x280' alt='Book Cover' />
+            <div className='title text-xl'>
+              รายละเอียด
+            </div>
+            <div>
+              <button className="btn-details ">ราคา</button>
+            </div>
           </div>
-          <div> 
-          <button className="btn-details ">ราคา</button>
+
+
+          <div className='cropped-image'>
+            <img src='https://via.placeholder.com/192x280' alt='Book Cover' />
+            <div className='title text-xl'>
+              รายละเอียด
+            </div>
+            <div>
+              <button className="btn-details">ราคา</button>
+            </div>
           </div>
-        </div>
-        
-        <div className='cropped-image2'>
-          <img src='https://via.placeholder.com/192x280' alt='Book Cover'  />
-          <div className='title text-xl'>
-            รายละเอียด
+
+          <div className='cropped-image'>
+            <img src='https://via.placeholder.com/192x280' alt='Book Cover' />
+            <div className='title text-xl'>
+              รายละเอียด
+            </div>
+            <div>
+              <button className="btn-details ">ราคา</button>
+            </div>
           </div>
-          <div> 
-          <button className="btn-details ">ราคา</button>
+
+          <div className='cropped-image'>
+            <img src='https://via.placeholder.com/192x280' alt='Book Cover' />
+            <div className='title text-xl'>
+              รายละเอียด
+            </div>
+            <div>
+              <button className="btn-details ">ราคา</button>
+            </div>
           </div>
         </div>
 
-        <div className='cropped-image2'>
-          <img src='https://via.placeholder.com/192x280' alt='Book Cover'  />
-          <div className='title text-xl'>
-            รายละเอียด
+
+        <div className='ระยะห่างระหว่างช่องebookแถว2'>
+          <div className='cropped-image2'>
+            <img src='https://via.placeholder.com/192x280' alt='Book Cover' />
+            <div className='title text-xl'>
+              รายละเอียด
+            </div>
+            <div>
+              <button className="btn-details ">ราคา</button>
+            </div>
           </div>
-          <div> 
-          <button className="btn-details ">ราคา</button>
+
+          <div className='cropped-image2'>
+            <img src='https://via.placeholder.com/192x280' alt='Book Cover' />
+            <div className='title text-xl'>
+              รายละเอียด
+            </div>
+            <div>
+              <button className="btn-details ">ราคา</button>
+            </div>
+          </div>
+
+          <div className='cropped-image2'>
+            <img src='https://via.placeholder.com/192x280' alt='Book Cover' />
+            <div className='title text-xl'>
+              รายละเอียด
+            </div>
+            <div>
+              <button className="btn-details ">ราคา</button>
+            </div>
+          </div>
+
+          <div className='cropped-image2'>
+            <img src='https://via.placeholder.com/192x280' alt='Book Cover' />
+            <div className='title text-xl'>
+              รายละเอียด
+            </div>
+            <div>
+              <button className="btn-details ">ราคา</button>
+            </div>
+          </div>
+
+          <div className='cropped-image2'>
+            <img src='https://via.placeholder.com/192x280' alt='Book Cover' />
+            <div className='title text-xl'>
+              รายละเอียด
+            </div>
+            <div>
+              <button className="btn-details ">ราคา</button>
+            </div>
           </div>
         </div>
 
-        <div className='cropped-image2'>
-          <img src='https://via.placeholder.com/192x280' alt='Book Cover'  />
-          <div className='title text-xl'>
-            รายละเอียด
+        <div className='ระยะห่างระหว่างช่องebookแถว3'>
+          <div className='cropped-image3'>
+            <img src='https://via.placeholder.com/192x280' alt='Book Cover' />
+            <div className='title text-xl'>
+              รายละเอียด
+            </div>
+            <div>
+              <button className="btn-details ">ราคา</button>
+            </div>
           </div>
-          <div> 
-          <button className="btn-details ">ราคา</button>
+
+          <div className='cropped-image3'>
+            <img src='https://via.placeholder.com/192x280' alt='Book Cover' />
+            <div className='title text-xl'>
+              รายละเอียด
+            </div>
+            <div>
+              <button className="btn-details ">ราคา</button>
+            </div>
+          </div>
+
+          <div className='cropped-image3'>
+            <img src='https://via.placeholder.com/192x280' alt='Book Cover' />
+            <div className='title text-xl'>
+              รายละเอียด
+            </div>
+            <div>
+              <button className="btn-details ">ราคา</button>
+            </div>
+          </div>
+
+          <div className='cropped-image3'>
+            <img src='https://via.placeholder.com/192x280' alt='Book Cover' />
+            <div className='title text-xl'>
+              รายละเอียด
+            </div>
+            <div>
+              <button className="btn-details ">ราคา</button>
+            </div>
+          </div>
+
+          <div className='cropped-image3'>
+            <img src='https://via.placeholder.com/192x280' alt='Book Cover' />
+            <div className='title text-xl'>
+              รายละเอียด
+            </div>
+            <div>
+              <button className="btn-details ">ราคา</button>
+            </div>
           </div>
         </div>
 
-        <div className='cropped-image2'>
-          <img src='https://via.placeholder.com/192x280' alt='Book Cover'  />
-          <div className='title text-xl'>
-            รายละเอียด
-          </div>
-          <div> 
-          <button className="btn-details ">ราคา</button>
-          </div>
-        </div>
-      </div>
-      
-      <div className='ระยะห่างระหว่างช่องebookแถว3'>
-        <div className='cropped-image3'>
-          <img src='https://via.placeholder.com/192x280' alt='Book Cover'  />
-          <div className='title text-xl'>
-            รายละเอียด
-          </div>
-          <div> 
-          <button className="btn-details ">ราคา</button>
-          </div>
-        </div>
 
-        <div className='cropped-image3'>
-          <img src='https://via.placeholder.com/192x280' alt='Book Cover'  />
-          <div className='title text-xl'>
-            รายละเอียด
-          </div>
-          <div> 
-          <button className="btn-details ">ราคา</button>
-          </div>
-        </div>
+        <div className='ระยะห่างระหว่างช่องebookแถว4'>
 
-        <div className='cropped-image3'>
-          <img src='https://via.placeholder.com/192x280' alt='Book Cover'  />
-          <div className='title text-xl'>
-            รายละเอียด
+          <div className='cropped-image4'>
+            <img src='https://via.placeholder.com/192x280' alt='Book Cover' />
+            <div className='title text-xl'>
+              รายละเอียด
+            </div>
+            <div>
+              <button className="btn-details ">ราคา</button>
+            </div>
           </div>
-          <div> 
-          <button className="btn-details ">ราคา</button>
-          </div>
-        </div>
 
-        <div className='cropped-image3'>
-          <img src='https://via.placeholder.com/192x280' alt='Book Cover'  />
-          <div className='title text-xl'>
-            รายละเอียด
+          <div className='cropped-image4'>
+            <img src='https://via.placeholder.com/192x280' alt='Book Cover' />
+            <div className='title text-xl'>
+              รายละเอียด
+            </div>
+            <div>
+              <button className="btn-details ">ราคา</button>
+            </div>
           </div>
-          <div> 
-          <button className="btn-details ">ราคา</button>
-          </div>
-        </div>
 
-        <div className='cropped-image3'>
-          <img src='https://via.placeholder.com/192x280' alt='Book Cover'  />
-          <div className='title text-xl'>
-            รายละเอียด
+          <div className='cropped-image4'>
+            <img src='https://via.placeholder.com/192x280' alt='Book Cover' />
+            <div className='title text-xl'>
+              รายละเอียด
+            </div>
+            <div>
+              <button className="btn-details ">ราคา</button>
+            </div>
           </div>
-          <div> 
-          <button className="btn-details ">ราคา</button>
+
+          <div className='cropped-image4'>
+            <img src='https://via.placeholder.com/192x280' alt='Book Cover' />
+            <div className='title text-xl'>
+              รายละเอียด
+            </div>
+            <div>
+              <button className="btn-details ">ราคา</button>
+            </div>
           </div>
-        </div>
-      </div>
 
-
-      <div className='ระยะห่างระหว่างช่องebookแถว4'>
-
-        <div className='cropped-image4'>
-          <img src='https://via.placeholder.com/192x280' alt='Book Cover'  />
-          <div className='title text-xl'>
-            รายละเอียด
-          </div>
-          <div> 
-          <button className="btn-details ">ราคา</button>
+          <div className='cropped-image4'>
+            <img src='https://via.placeholder.com/192x280' alt='Book Cover' />
+            <div className='title text-xl'>
+              รายละเอียด
+            </div>
+            <div>
+              <button className="btn-details ">ราคา</button>
+            </div>
           </div>
         </div>
 
-        <div className='cropped-image4'>
-          <img src='https://via.placeholder.com/192x280' alt='Book Cover'  />
-          <div className='title text-xl'>
-            รายละเอียด
+        <div className='ระยะห่างระหว่างช่องebookแถว5'>
+
+          <div className='cropped-image5'>
+            <img src='https://via.placeholder.com/192x280' alt='Book Cover' />
+            <div className='title text-xl'>
+              รายละเอียด
+            </div>
+            <div>
+              <button className="btn-details ">ราคา</button>
+            </div>
           </div>
-          <div> 
-          <button className="btn-details ">ราคา</button>
+
+          <div className='cropped-image5'>
+            <img src='https://via.placeholder.com/192x280' alt='Book Cover' />
+            <div className='title text-xl'>
+              รายละเอียด
+            </div>
+            <div>
+              <button className="btn-details ">ราคา</button>
+            </div>
           </div>
+
+          <div className='cropped-image5'>
+            <img src='https://via.placeholder.com/192x280' alt='Book Cover' />
+            <div className='title text-xl'>
+              รายละเอียด
+            </div>
+            <div>
+              <button className="btn-details ">ราคา</button>
+            </div>
+          </div>
+
+          <div className='cropped-image5'>
+            <img src='https://via.placeholder.com/192x280' alt='Book Cover' />
+            <div className='title text-xl'>
+              รายละเอียด
+            </div>
+            <div>
+              <button className="btn-details ">ราคา</button>
+            </div>
+          </div>
+
+          <div className='cropped-image5'>
+            <img src='https://via.placeholder.com/192x280' alt='Book Cover' />
+            <div className='title text-xl'>
+              รายละเอียด
+            </div>
+            <div>
+              <button className="btn-details ">ราคา</button>
+            </div>
+          </div>
+
         </div>
 
-        <div className='cropped-image4'>
-          <img src='https://via.placeholder.com/192x280' alt='Book Cover'  />
-          <div className='title text-xl'>
-            รายละเอียด
+
+        <div className='ระยะห่างระหว่างช่องebookแถว6'>
+
+          <div className='cropped-image6'>
+            <img src='https://via.placeholder.com/192x280' alt='Book Cover' />
+            <div className='title text-xl'>
+              รายละเอียด
+            </div>
+            <div>
+              <button className="btn-details ">ราคา</button>
+            </div>
           </div>
-          <div> 
-          <button className="btn-details ">ราคา</button>
+
+          <div className='cropped-image6'>
+            <img src='https://via.placeholder.com/192x280' alt='Book Cover' />
+            <div className='title text-xl'>
+              รายละเอียด
+            </div>
+            <div>
+              <button className="btn-details ">ราคา</button>
+            </div>
           </div>
+
+          <div className='cropped-image6'>
+            <img src='https://via.placeholder.com/192x280' alt='Book Cover' />
+            <div className='title text-xl'>
+              รายละเอียด
+            </div>
+            <div>
+              <button className="btn-details ">ราคา</button>
+            </div>
+          </div>
+
+          <div className='cropped-image6'>
+            <img src='https://via.placeholder.com/192x280' alt='Book Cover' />
+            <div className='title text-xl'>
+              รายละเอียด
+            </div>
+            <div>
+              <button className="btn-details ">ราคา</button>
+            </div>
+          </div>
+
+          <div className='cropped-image6'>
+            <img src='https://via.placeholder.com/192x280' alt='Book Cover' />
+            <div className='title text-xl'>
+              รายละเอียด
+            </div>
+            <div>
+              <button className="btn-details ">ราคา</button>
+            </div>
+          </div>
+
         </div>
-
-        <div className='cropped-image4'>
-          <img src='https://via.placeholder.com/192x280' alt='Book Cover'  />
-          <div className='title text-xl'>
-            รายละเอียด
-          </div>
-          <div> 
-          <button className="btn-details ">ราคา</button>
-          </div>
-        </div>
-
-        <div className='cropped-image4'>
-          <img src='https://via.placeholder.com/192x280' alt='Book Cover'  />
-          <div className='title text-xl'>
-            รายละเอียด
-          </div>
-          <div> 
-          <button className="btn-details ">ราคา</button>
-          </div>
-        </div>
-      </div>
-
-      <div className='ระยะห่างระหว่างช่องebookแถว5'>
-
-        <div className='cropped-image5'>
-          <img src='https://via.placeholder.com/192x280' alt='Book Cover'  />
-          <div className='title text-xl'>
-            รายละเอียด
-          </div>
-          <div> 
-          <button className="btn-details ">ราคา</button>
-          </div>
-        </div>  
-        
-        <div className='cropped-image5'>
-          <img src='https://via.placeholder.com/192x280' alt='Book Cover'  />
-          <div className='title text-xl'>
-            รายละเอียด
-          </div>
-          <div> 
-          <button className="btn-details ">ราคา</button>
-          </div>
-        </div> 
-
-        <div className='cropped-image5'>
-          <img src='https://via.placeholder.com/192x280' alt='Book Cover'  />
-          <div className='title text-xl'>
-            รายละเอียด
-          </div>
-          <div> 
-          <button className="btn-details ">ราคา</button>
-          </div>
-        </div>             
-
-        <div className='cropped-image5'>
-          <img src='https://via.placeholder.com/192x280' alt='Book Cover'  />
-          <div className='title text-xl'>
-            รายละเอียด
-          </div>
-          <div> 
-          <button className="btn-details ">ราคา</button>
-          </div>
-        </div> 
-
-        <div className='cropped-image5'>
-          <img src='https://via.placeholder.com/192x280' alt='Book Cover'  />
-          <div className='title text-xl'>
-            รายละเอียด
-          </div>
-          <div> 
-          <button className="btn-details ">ราคา</button>
-          </div>
-        </div>         
 
       </div>
 

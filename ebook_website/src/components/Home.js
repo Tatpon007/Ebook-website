@@ -13,7 +13,7 @@ function Home() {
 
       <div className='container mx-auto'>
 
-        <div className='font-serif '>
+        <div className='font-serif text-center'>
           <h2 className='text-4xl'>ALL E-BOOKS</h2>
         </div>
 

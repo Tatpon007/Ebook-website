@@ -3,15 +3,15 @@
     height: 392.66px; /* ปรับขนาดของรูปภาพตามที่ต้องการ */
     border-radius: 10px; /* เพิ่มขอบมนเข้าไป */
     border: 2px solid black; /* เพิ่มเส้นขอบสีดำ */
-    margin-left: 0px;
+    margin-left: -100px;
     margin-top: 50px;
     position: relative; /* เพิ่ม position เพื่อให้สามารถใช้ position:absolute ได้ */
   }
   
   .btn-details {
     padding: 15px;
-    background-color: #3EBB1F;
-    color: white;
+    background-color: #34D399;
+    color: #fff;
     font-size: medium;
     border-style: none;
     border-radius: 15rem;
@@ -22,7 +22,7 @@
     right: 0; /* ปรับตำแหน่งให้ชิดขอบขวาของ .cropped-image */
   }
   .btn-details:active {
-    background-color: #35C290;
+    background-color: #10B981;;
   }
 
   .cropped-image2 {
@@ -30,7 +30,7 @@
     height: 392.66px; /* ปรับขนาดของรูปภาพตามที่ต้องการ */
     border-radius: 10px; /* เพิ่มขอบมนเข้าไป */
     border: 2px solid black; /* เพิ่มเส้นขอบสีดำ */
-    margin-left: 300px;
+    margin-left: 200px;
     margin-top: 50px;
     position: relative; /* เพิ่ม position เพื่อให้สามารถใช้ position:absolute ได้ */
   }
@@ -42,7 +42,7 @@
     height: 392.66px; /* ปรับขนาดของรูปภาพตามที่ต้องการ */
     border-radius: 10px; /* เพิ่มขอบมนเข้าไป */
     border: 2px solid black; /* เพิ่มเส้นขอบสีดำ */
-    margin-left: 600px;
+    margin-left: 500px;
     margin-top: 50px;
     position: relative; /* เพิ่ม position เพื่อให้สามารถใช้ position:absolute ได้ */
   }
@@ -55,7 +55,7 @@
     height: 392.66px; /* ปรับขนาดของรูปภาพตามที่ต้องการ */
     border-radius: 10px; /* เพิ่มขอบมนเข้าไป */
     border: 2px solid black; /* เพิ่มเส้นขอบสีดำ */
-    margin-left: 900px;
+    margin-left: 800px;
     margin-top: 50px;
     position: relative; /* เพิ่ม position เพื่อให้สามารถใช้ position:absolute ได้ */
   }
@@ -68,7 +68,7 @@
     height: 392.66px; /* ปรับขนาดของรูปภาพตามที่ต้องการ */
     border-radius: 10px; /* เพิ่มขอบมนเข้าไป */
     border: 2px solid black; /* เพิ่มเส้นขอบสีดำ */
-    margin-left: 1200px;
+    margin-left: 1100px;
     margin-top: 50px;
     position: relative; /* เพิ่ม position เพื่อให้สามารถใช้ position:absolute ได้ */
   }
@@ -77,16 +77,16 @@
   }
 
 
-  .cropped-image5 {
+  .cropped-image6 {
     width: 190px; /* ปรับขนาดของรูปภาพตามที่ต้องการ */
     height: 392.66px; /* ปรับขนาดของรูปภาพตามที่ต้องการ */
     border-radius: 10px; /* เพิ่มขอบมนเข้าไป */
     border: 2px solid black; /* เพิ่มเส้นขอบสีดำ */
-    margin-left: 1200px;
+    margin-left: 1400px;
     margin-top: 50px;
     position: relative; /* เพิ่ม position เพื่อให้สามารถใช้ position:absolute ได้ */
   }
-  .ระยะห่างระหว่างช่องebookแถว5{
+  .ระยะห่างระหว่างช่องebookแถว6{
     margin-top:-2213px;
   }
 
@@ -103,20 +103,7 @@
     margin-top: 50px;
   }
 
-  .SEND {
-    padding: 20px 120px;
-    background-color: #3EBB1F;
-    color: white;
-    font-size: medium;
-    border-style: none;
-    
-    border-radius: 15rem;
-    box-shadow: 10px 10px 36px -10px rgba(0,0,0,0.75);
-    outline: none;
-    position: relative; /* กำหนดให้เป็น relative position */
-    right: -260px; /* เลื่อนไปทางขวา */
-    margin-top: 20px;
-}
+
 
   .SEND:active {
     background-color: #35C290;
@@ -173,4 +160,9 @@
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
   margin-left: 550px;
   margin-top: -600px;
+}
+
+.text-left py-3 uppercase font-semibold text-sm border-b border-gray-300{
+  padding-left: 200rem/* 16px */;
+  padding-right: 200rem/* 16px */;
 }
