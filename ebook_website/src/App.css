@@ -3,7 +3,7 @@
     height: 392.66px; /* ปรับขนาดของรูปภาพตามที่ต้องการ */
     border-radius: 10px; /* เพิ่มขอบมนเข้าไป */
     border: 2px solid black; /* เพิ่มเส้นขอบสีดำ */
-    margin-left: 100px;
+    margin-left: 0px;
     margin-top: 50px;
     position: relative; /* เพิ่ม position เพื่อให้สามารถใช้ position:absolute ได้ */
   }
@@ -30,7 +30,7 @@
     height: 392.66px; /* ปรับขนาดของรูปภาพตามที่ต้องการ */
     border-radius: 10px; /* เพิ่มขอบมนเข้าไป */
     border: 2px solid black; /* เพิ่มเส้นขอบสีดำ */
-    margin-left: 500px;
+    margin-left: 300px;
     margin-top: 50px;
     position: relative; /* เพิ่ม position เพื่อให้สามารถใช้ position:absolute ได้ */
   }
@@ -42,7 +42,7 @@
     height: 392.66px; /* ปรับขนาดของรูปภาพตามที่ต้องการ */
     border-radius: 10px; /* เพิ่มขอบมนเข้าไป */
     border: 2px solid black; /* เพิ่มเส้นขอบสีดำ */
-    margin-left: 900px;
+    margin-left: 600px;
     margin-top: 50px;
     position: relative; /* เพิ่ม position เพื่อให้สามารถใช้ position:absolute ได้ */
   }
@@ -55,7 +55,7 @@
     height: 392.66px; /* ปรับขนาดของรูปภาพตามที่ต้องการ */
     border-radius: 10px; /* เพิ่มขอบมนเข้าไป */
     border: 2px solid black; /* เพิ่มเส้นขอบสีดำ */
-    margin-left: 1300px;
+    margin-left: 900px;
     margin-top: 50px;
     position: relative; /* เพิ่ม position เพื่อให้สามารถใช้ position:absolute ได้ */
   }
@@ -68,7 +68,21 @@
     height: 392.66px; /* ปรับขนาดของรูปภาพตามที่ต้องการ */
     border-radius: 10px; /* เพิ่มขอบมนเข้าไป */
     border: 2px solid black; /* เพิ่มเส้นขอบสีดำ */
-    margin-left: 1700px;
+    margin-left: 1200px;
+    margin-top: 50px;
+    position: relative; /* เพิ่ม position เพื่อให้สามารถใช้ position:absolute ได้ */
+  }
+  .ระยะห่างระหว่างช่องebookแถว5{
+    margin-top:-2213px;
+  }
+
+
+  .cropped-image5 {
+    width: 190px; /* ปรับขนาดของรูปภาพตามที่ต้องการ */
+    height: 392.66px; /* ปรับขนาดของรูปภาพตามที่ต้องการ */
+    border-radius: 10px; /* เพิ่มขอบมนเข้าไป */
+    border: 2px solid black; /* เพิ่มเส้นขอบสีดำ */
+    margin-left: 1200px;
     margin-top: 50px;
     position: relative; /* เพิ่ม position เพื่อให้สามารถใช้ position:absolute ได้ */
   }
@@ -160,4 +174,3 @@
   margin-left: 550px;
   margin-top: -600px;
 }
-

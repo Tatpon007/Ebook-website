@@ -16,6 +16,10 @@ import Shipping from './components/Shipping';
 import ShippingEDIT from './components/ShippingEDIT';
 import OrderHi from './components/OrderHi';
 import CustomerE from './components/CustomerE';
+import UserM from './components/Backend/UserM';
+import Stock from './components/Backend/Stock';
+import OrderM from './components/Backend/OrderM';
+import CustomerM from './components/Backend/CustomerM';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -24,6 +28,10 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
+          <Route path="/CustomerM" element={<CustomerM />} />
+          <Route path="/OrderM" element={<OrderM />} />
+          <Route path="/Stock" element={<Stock />} />
+          <Route path="/UserM" element={<UserM />} />
           <Route path="/CustomerE" element={<CustomerE />} />
           <Route path="/OrderHi" element={<OrderHi />} />
           <Route path="/ShippingEDIT" element={<ShippingEDIT />} />
