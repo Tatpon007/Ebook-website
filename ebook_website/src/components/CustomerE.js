@@ -13,18 +13,45 @@ function CustomerE() {
 
     const openModal = () => {
         setModalIsOpen(true);
-        setModalIsOpen2(true);
-        setModalIsOpen3(true);
-        setModalIsOpen4(true);
-        setModalIsOpen5(true);
+
     };
 
     const closeModal = () => {
         setModalIsOpen(false);
+    };
+
+
+    const openModal2 = () => {
+        setModalIsOpen2(true);
+    };
+
+    const closeModal2 = () => {
         setModalIsOpen2(false);
+    };
+
+
+    const openModal3 = () => {
+        setModalIsOpen3(true);
+    };
+
+    const closeModal3 = () => {
         setModalIsOpen3(false);
+    };
+
+    const openModal4 = () => {
+        setModalIsOpen4(true);
+    };
+
+    const closeModal4 = () => {
         setModalIsOpen4(false);
+    };
+
+    const openModal5 = () => {
         setModalIsOpen5(true);
+    };
+
+    const closeModal5 = () => {
+        setModalIsOpen5(false);
     };
 
     return (
@@ -54,7 +81,7 @@ function CustomerE() {
                             <li class="py-2"><Link to="/Shipping">Shipping Address</Link></li>
                             <li class="py-2"><Link to="/OrderHi">Order History</Link></li>
                             <li class="py-2"><Link to="/CustomerE">Customer Support</Link></li>
-                            <button className='D' onClick={openModal}>Delete Account</button>
+                            <button className='D' onClick={openModal5}>Delete Account</button>
                         </ul>
                     </div>
                     <div className='boxs'>
@@ -80,7 +107,7 @@ function CustomerE() {
                                 <p class="text-sm mb-1">Ebook ID </p>
                                 <p class="text-sm mb-1">Category</p>
                                 <p class="text-sm font-semibold mb-1">ราคา</p>
-                                <button class="bg-green-500 text-white px-6 py-0 rounded-full hover:bg-green-600 focus:outline-none focus:bg-green-600" onClick={openModal}>OPEN</button>
+                                <button class="bg-green-500 text-white px-6 py-0 rounded-full hover:bg-green-600 focus:outline-none focus:bg-green-600" onClick={openModal2}>OPEN</button>
                             </div>
                         </div>
 
@@ -93,7 +120,7 @@ function CustomerE() {
                                 <p class="text-sm mb-1">Ebook ID </p>
                                 <p class="text-sm mb-1">Category</p>
                                 <p class="text-sm font-semibold mb-1">ราคา</p>
-                                <button class="bg-green-500 text-white px-6 py-0 rounded-full hover:bg-green-600 focus:outline-none focus:bg-green-600" onClick={openModal}>OPEN</button>
+                                <button class="bg-green-500 text-white px-6 py-0 rounded-full hover:bg-green-600 focus:outline-none focus:bg-green-600" onClick={openModal3}>OPEN</button>
                             </div>
                         </div>
 
@@ -106,7 +133,7 @@ function CustomerE() {
                                 <p class="text-sm mb-1">Ebook ID </p>
                                 <p class="text-sm mb-1">Category</p>
                                 <p class="text-sm font-semibold mb-1">ราคา</p>
-                                <button class="bg-green-500 text-white px-6 py-0 rounded-full hover:bg-green-600 focus:outline-none focus:bg-green-600" onClick={openModal}>OPEN</button>
+                                <button class="bg-green-500 text-white px-6 py-0 rounded-full hover:bg-green-600 focus:outline-none focus:bg-green-600" onClick={openModal4}>OPEN</button>
                             </div>
                         </div>
 
@@ -119,13 +146,13 @@ function CustomerE() {
             <Modal isOpen={modalIsOpen} onRequestClose={closeModal} style={{ content: { width: '50%', height: '60%', margin: 'auto' } }}>
                 <div className='lo'>
                     <div>
-                        <img src='https://via.placeholder.com/1220x800' alt='Book Cover' class="rounded" />
+                        <img src='https://via.placeholder.com/1280x800' alt='Book Cover' class="rounded" />
                     </div>
 
                 </div>
             </Modal>
 
-            <Modal isOpen={modalIsOpen2} onRequestClose={closeModal} style={{ content: { width: '50%', height: '60%', margin: 'auto' } }}>
+            <Modal isOpen={modalIsOpen2} onRequestClose={closeModal2} style={{ content: { width: '50%', height: '60%', margin: 'auto' } }}>
                 <div className='lo'>
                     <div>
                         <img src='https://via.placeholder.com/1280x800' alt='Book Cover' class="rounded" />
@@ -134,7 +161,7 @@ function CustomerE() {
                 </div>
             </Modal>
 
-            <Modal isOpen={modalIsOpen3} onRequestClose={closeModal} style={{ content: { width: '50%', height: '60%', margin: 'auto' } }}>
+            <Modal isOpen={modalIsOpen3} onRequestClose={closeModal3} style={{ content: { width: '50%', height: '60%', margin: 'auto' } }}>
                 <div className='lo'>
                     <div>
                         <img src='https://via.placeholder.com/1280x800' alt='Book Cover' class="rounded" />
@@ -142,7 +169,7 @@ function CustomerE() {
                 </div>
             </Modal>
 
-            <Modal isOpen={modalIsOpen4} onRequestClose={closeModal} style={{ content: { width: '50%', height: '60%', margin: 'auto' } }}>
+            <Modal isOpen={modalIsOpen4} onRequestClose={closeModal4} style={{ content: { width: '50%', height: '60%', margin: 'auto' } }}>
                 <div className='lo'>
                     <div>
                         <img src='https://via.placeholder.com/1280x800' alt='Book Cover' class="rounded" />
@@ -150,28 +177,23 @@ function CustomerE() {
                 </div>
             </Modal>
 
-            <Modal isOpen={modalIsOpen5} onRequestClose={closeModal} style={{ content: { width: '25%', height: '50%', margin: 'auto' } }}>
-          <div className='lo'>
-            <h2 className='text-2xl' style={{ marginLeft: '10rem' }}>Login</h2>
-            <form>
-              <div className="user">
-                <h1 className='text-xl'>Username</h1>
-              </div>
-              <div className="from-control">
-                <h2 className='text-xl'>Password</h2>
-              </div>
-              <div className='Login' style={{ marginLeft: '8rem', marginTop: '2rem' }}>
-                <button className='submit'>LOGIN</button>
-              </div>
-              <div className='flex ' style={{ marginLeft: '1rem', marginTop: '1rem' }}>
-                <h3>You don't have an account yet?</h3>
-                <button className='Re' style={{ marginLeft: '3rem', marginTop: '-1rem' }}>Register</button>
-              </div>
-            </form>
-            <button onClick={closeModal}>o</button>
-          </div>
+            <Modal isOpen={modalIsOpen5} onRequestClose={closeModal5} style={{ content: { width: '25%', height: '50%', margin: 'auto' } }}>
+                <div className='lo'>
+                    <h2 className='text-2xl' style={{ marginLeft: '1rem' }}>Are you sure to delete your account?</h2>
+                    <form>
+                        <div className="user">
+                            <h1 className='flex text-sm'>You will not be able to log in again to this account if you delete your account.</h1>
+                        </div>
+                        <div className='del' style={{ marginLeft: '2rem', marginTop: '3rem' }}>
+                        <button class="bg-green-500 text-white px-6 py-2 rounded-full hover:bg-green-600 focus:outline-none focus:bg-green-600">CANCLE</button>
+                        </div>
+                        <div className='flex ' style={{ marginLeft: '15rem', marginTop: '-2.5rem' }}>
+                        <button class="bg-red-500 text-white px-6 py-2 rounded-full hover:bg-orange-600 focus:outline-none focus:bg-yellow-600">DELETE</button>
+                        </div>
+                    </form>
+                </div>
 
-        </Modal>
+            </Modal>
 
         </div>
 
