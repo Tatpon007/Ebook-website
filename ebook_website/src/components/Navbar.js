@@ -66,7 +66,7 @@ function Navbar() {
           </div>
 
         </div>
-        <Modal isOpen={modalIsOpen &&!isRegistering} onRequestClose={closeModal} style={{ content: { width: '25%', height: '40%', margin: 'auto' } }}>
+        <Modal isOpen={modalIsOpen &&!isRegistering} onRequestClose={closeModal} style={{ content: { width: '25%', height: '50%', margin: 'auto' } }}>
           <div className='lo'>
             <h2 className='text-2xl' style={{ marginLeft: '10rem' }}>Login</h2>
             <form>
@@ -90,7 +90,7 @@ function Navbar() {
           </div>
 
         </Modal>
-        <Modal isOpen={modalIsOpens} onRequestClose={closeRE} style={{ content: { width: '25%', height: '40%', margin: 'auto' } }}>
+        <Modal isOpen={modalIsOpens} onRequestClose={closeRE} style={{ content: { width: '25%', height: '50%', margin: 'auto' } }}>
           <div>
             <h2 className='text-2xl' style={{ marginLeft: '10rem' }}>Login</h2>
             <form>
@@ -111,7 +111,7 @@ function Navbar() {
                 <input type="text" className="block w-full p-3 ps-10 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Password" ></input>
               </div>
             </form>
-            <button onClick={closeRE}>xv</button>
+            <button class="bg-green-500 text-white px-16 py-3 rounded-full hover:bg-green-600 focus:outline-none focus:bg-green-600" style={{ marginTop: '1rem' }}>REGISTER</button>
           </div>
 
         </Modal>

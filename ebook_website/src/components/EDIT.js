@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom"
-function User() {
+function EDIT() {
     return (
         <div>
             <div className='bg-white-300 text-dark'>
@@ -53,9 +53,14 @@ function User() {
                             <input type="text" className="block w-full p-1 ps-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" style={{ width: '20rem' }} placeholder="Phone Number" ></input>
                         </ul>
 
-                        <div className='b' style={{ marginTop: '15rem', marginLeft: '-14rem' }}>
-                            <Link to="/EDIT" class="bg-green-500 text-white px-6 py-2 rounded-full hover:bg-green-600 focus:outline-none focus:bg-green-600">EDIT</Link>
+                        <div className='b' style={{ marginTop: '15rem', marginLeft: '-10rem' }}>
+                            <Link to="/USER" class="bg-green-500 text-white px-6 py-2 rounded-full hover:bg-green-600 focus:outline-none focus:bg-green-600">CONFIRM</Link>
                         </div>
+
+                        <div className='b' style={{ marginTop: '15rem', marginLeft: '-15rem' }}>
+                            <Link to="/USER" class="bg-green-500 text-white px-6 py-2 rounded-full hover:bg-green-600 focus:outline-none focus:bg-green-600">CANCEL</Link>
+                        </div>
+
                     </div>
 
                 </div>
@@ -78,4 +83,4 @@ function User() {
     );
 }
 
-export default User;
+export default EDIT;
