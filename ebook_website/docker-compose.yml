@@ -28,3 +28,6 @@ services:
       - "8080:80"
     depends_on:
       - db
+volumes:
+  mysql_data_test: # กำหนดชื่อ volume ที่ต้องการจะสร้าง
+    driver: local
