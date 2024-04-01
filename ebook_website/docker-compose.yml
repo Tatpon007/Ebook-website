@@ -31,3 +31,4 @@ services:
 volumes:
   mysql_data_test: # กำหนดชื่อ volume ที่ต้องการจะสร้าง
     driver: local
+#docker-compose up -d --build
