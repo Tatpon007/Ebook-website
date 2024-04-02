@@ -1,11 +1,16 @@
 import React, { useState } from 'react'
 import { Link } from "react-router-dom"
 import Modal from 'react-modal';
+import CustomerObj from './Backend/CustomerObj';
+import User from './User'
+
+
 function Navbar() {
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [modalIsOpens, setModalIsOpens] = useState(false);
   const [isRegistering, setIsRegistering] = useState(false);
 
+  
   const openModal = () => {
     setModalIsOpen(true);
     setIsRegistering(false);//
@@ -25,11 +30,36 @@ function Navbar() {
     setModalIsOpens(false);
   };
 
+    const user = new CustomerObj();
+    const [statuslogin ,setstatuslogin] = useState(user.return_status()) ;
+    const [login, setLogin] = useState({ username: "", password: "" });
+    const [password, setPassword] = useState("");
+    const [username, setUsername] = useState("");
+    const [errorMessage, setErrorMessage] = useState(""); // State to hold error message
 
 
+    const usernameOnChange = (event) => {
+        setUsername(event.target.value);
+    }
+
+    const passwordOnChange = (event) => {
+        setPassword(event.target.value);
+    }
+
+    const toLogin = (event) => {
+      event.preventDefault(); // Prevent form submission
+        user.login({username,password})
+      // Check if login status is still false
+      if (!user.status) {
+          setErrorMessage("Username or password is incorrect."); // Set error message
+      }else{
+          setstatuslogin(true) ;
+          setErrorMessage("correct") ;
+      }
+  }
+    
+  if(!statuslogin){
   return (
-
-
     <nav className="bg-gradient-to-r from-green-500 to-green-300">
       <div className="flex flex-wrap items-center  mx-auto p-4">
         <Link to="/Home" className="flex items-center space-x-3 rtl:space-x-reverse">
@@ -67,27 +97,25 @@ function Navbar() {
 
         </div>
         <Modal isOpen={modalIsOpen &&!isRegistering} onRequestClose={closeModal} style={{ content: { width: '25%', height: '50%', margin: 'auto' } }}>
-          <div className='lo'>
-            <h2 className='text-2xl' style={{ marginLeft: '10rem' }}>Login</h2>
-            <form>
-              <div className="user">
+        <form onSubmit={toLogin}>
+            <p className='show error'>{errorMessage}</p>
+            <div className="user">
                 <h1 className='text-xl'>Username</h1>
-                <input type="text" className="block w-full p-3 ps-10 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Username" ></input>
-              </div>
-              <div className="from-control">
+                <input type="text" onChange={usernameOnChange} className="block w-full p-3 ps-10 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Username" ></input>
+            </div>
+            <div className="from-control">
                 <h2 className='text-xl'>Password</h2>
-                <input type="text" className="block w-full p-3 ps-10 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Password" ></input>
-              </div>
-              <div className='Login' style={{ marginLeft: '8rem', marginTop: '2rem' }}>
-                <button className='submit'>LOGIN</button>
-              </div>
-              <div className='flex ' style={{ marginLeft: '1rem', marginTop: '1rem' }}>
+                <input type="text" onChange={passwordOnChange} className="block w-full p-3 ps-10 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Password" ></input>
+            </div>
+            <div className='Login' style={{ marginLeft: '8rem', marginTop: '2rem' }}>
+                <button type="submit" className='submit'>LOGIN</button>
+            </div>
+            <div className='flex ' style={{ marginLeft: '1rem', marginTop: '1rem' }}>
                 <h3>You don't have an account yet?</h3>
                 <button className='Re' style={{ marginLeft: '3rem', marginTop: '-1rem' }} onClick={openRE}>Register</button>
-              </div>
-            </form>
-            <button onClick={closeModal}>o</button>
-          </div>
+            </div>
+        </form>
+          
 
         </Modal>
         <Modal isOpen={modalIsOpens} onRequestClose={closeRE} style={{ content: { width: '25%', height: '50%', margin: 'auto' } }}>
@@ -127,7 +155,10 @@ function Navbar() {
       </div>
     </nav>
 
-  )
+  )}else{
+    return(  <Link to="/User" className="mx-10 text-xl"></Link>) ;
+
+  }
 }
 
 export default Navbar
