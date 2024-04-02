@@ -32,12 +32,12 @@ function Payment2() {
 
                 {/* <!-- Action Buttons --> */}
                 <div class="flex space-x-4 mt-6">
-                    <button class="bg-gray-200 hover:bg-gray-300 text-black font-bold py-2 px-4 rounded-lg transition duration-200 ease-in-out transform hover:scale-105">
+                    <Link to ='/Payment'button class="bg-gray-200 hover:bg-gray-300 text-black font-bold py-2 px-4 rounded-lg transition duration-200 ease-in-out transform hover:scale-105">
                         ADD OTHER PAYMENT METHOD
-                    </button>
-                    <button class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-lg transition duration-200 ease-in-out transform hover:scale-105">
+                    </Link>
+                    <Link to = '/Shopcart'button class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-lg transition duration-200 ease-in-out transform hover:scale-105">
                         CONFIRM
-                    </button>
+                    </Link>
                 </div>
             </div>
 

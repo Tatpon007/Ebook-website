@@ -49,7 +49,10 @@ function Shopcart() {
                             <p>THB Total</p>
                         </div>
                         {/* <!-- Checkout Button --> */}
+                        <Link to ='/Status'>
                         <button class="bg-green-500 text-white w-full p-2">Checkout</button>
+                        </Link>
+                        
                         {/* <!-- Continue Shopping Button --> */}
                         <button class="bg-transparent text-green-500 w-full p-2 mt-2">Continue Shopping</button>
                     </div>

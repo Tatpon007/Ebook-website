@@ -1,6 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from "react-router-dom"
+import Modal from 'react-modal';
+
 function Shipping() {
+    const [modalIsOpen5, setModalIsOpen5] = useState(false);
+
+    const openModal5 = () => {
+        setModalIsOpen5(true);
+    };
+
+    const closeModal5 = () => {
+        setModalIsOpen5(false);
+    };
     return (
         <div>
             <div className='bg-white-300 text-dark'>
@@ -28,7 +39,7 @@ function Shipping() {
                             <li class="py-2"><Link to="/Shipping">Shipping Address</Link></li>
                             <li class="py-2"><Link to="/OrderHi">Order History</Link></li>
                             <li class="py-2"><Link to="/CustomerE">Customer Support</Link></li>
-                            <li>Delete Account</li>
+                            <button className='D' onClick={openModal5}>Delete Account</button>
                         </ul>
                     </div>
                     <div className='boxs'>
@@ -70,7 +81,23 @@ function Shipping() {
 
             </div>
 
+            <Modal isOpen={modalIsOpen5} onRequestClose={closeModal5} style={{ content: { width: '25%', height: '50%', margin: 'auto' } }}>
+                    <div className='lo'>
+                        <h2 className='text-2xl' style={{ marginLeft: '1rem' }}>Are you sure to delete your account?</h2>
+                        <form>
+                            <div className="user">
+                                <h1 className='flex text-sm'>You will not be able to log in again to this account if you delete your account.</h1>
+                            </div>
+                            <div className='del' style={{ marginLeft: '2rem', marginTop: '3rem' }}>
+                                <button class="bg-green-500 text-white px-6 py-2 rounded-full hover:bg-green-600 focus:outline-none focus:bg-green-600">CANCLE</button>
+                            </div>
+                            <div className='flex ' style={{ marginLeft: '15rem', marginTop: '-2.5rem' }}>
+                                <button class="bg-red-500 text-white px-6 py-2 rounded-full hover:bg-orange-600 focus:outline-none focus:bg-yellow-600">DELETE</button>
+                            </div>
+                        </form>
+                    </div>
 
+                </Modal>
 
 
 

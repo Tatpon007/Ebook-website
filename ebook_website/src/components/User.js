@@ -1,10 +1,8 @@
 import React, { useState } from 'react'
 import { Link } from "react-router-dom"
-<<<<<<< Updated upstream
 import Navbar from './Navbar';
-=======
 import Modal from 'react-modal';
->>>>>>> Stashed changes
+
 function User() {
     const [modalIsOpen5, setModalIsOpen5] = useState(false);
 

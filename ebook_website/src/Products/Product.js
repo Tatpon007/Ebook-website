@@ -40,7 +40,7 @@ function Product() {
                             <p class="text-sm font-semibold mb-1">Ebook ID: <span class="font-normal">1203</span></p>
                             <p class="text-2xl font-bold my-4">THB 100</p>
                             <button class="bg-white-500 text-black px-6 py-2 mr-2 rounded-full shadow-md hover:bg-white-600 focus:outline-2 focus:bg-green-600"onClick={openModal}>Read Sample</button>
-                            <button class="bg-green-500 text-white px-6 py-2  rounded-full hover:bg-green-600 focus:outline-none focus:bg-green-600">Add to Cart</button>
+                            <Link to = '/Payment2'button class="bg-green-500 text-white px-6 py-2  rounded-full hover:bg-green-600 focus:outline-none focus:bg-green-600">Add to Cart</Link>
                           
                         </div>
                     </div>
