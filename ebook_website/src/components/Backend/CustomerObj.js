@@ -1,9 +1,23 @@
 import React from "react";
 
+// const express = require('express')
+// const mysql = require('mysql2/promise')
+
+// const app = express()
+// const port = 8000
+
+// const initMySQL = async () => {
+//   conn = await mysql.createConnection({
+//     host: 'db', // หรือใส่เป็น localhost ก็ได้
+//     user: 'root',
+//     password: 'root',
+//     database: 'tutorial'
+//   })
+// }
 
 const data = [
-    {username : "p" ,email :"tatpon@gmail" ,phone:"0635844830",password :"ggsaponto"},
-    {username : "punyawat",email :"tjaj@gmail" ,phone:"0123456789",password :"ggsaponto007"}
+    {username : "tatsaponto"    ,password :"ggsaponto"},
+    {username : "punyawat"      ,password :"ggsaponto007"}
 ]
 
 class CustomerObj extends React.Component {
@@ -29,21 +43,7 @@ class CustomerObj extends React.Component {
             console.log("Success") ;
         }
     };
-    register = (props) =>{
-        const search = data.filter(e => {
-            return props.username === e.username || props.email === e.email || props.phone === e.phone || props.username ===" " || props.email ===" " || props.phone === " " || props.password === " " 
-        });
-        if(search.lenght === 0){
-
-        }else{
-            data.push(props) ;
-            this.username = props.username ;
-        }
-
-    }
-
-    
 
 }
 
-export default CustomerObj ;
+export default CustomerObj;
