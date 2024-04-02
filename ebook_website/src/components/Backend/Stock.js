@@ -44,9 +44,8 @@ function Stock() {
       </div>
 
       <div className='container mx-auto'>
-        <h1 className='text-4xl font-bold' style={{ marginTop: '3rem', marginLeft: '0rem' }}>USER MANAGEMENT</h1>
-        <button class="bg-green-500 text-white px-5 py-2  rounded-full hover:bg-green-600 focus:outline-none focus:bg-green-600" style={{ marginTop: '1rem' }} onClick={openModal}>ADD NEW PRODUCT</button>
-
+        <h1 className='text-4xl font-bold' style={{ marginTop: '3rem', marginLeft: '0rem' }}>STOCK MANAGEMENT</h1>
+        <button class="bg-green-500 text-white px-5 py-2  rounded-full hover:bg-green-600 focus:outline-none focus:bg-green-600" style={{ marginTop: '1rem' }} >ADD NEW PRODUCT</button>
       </div>
 
       <div class="flex justify-center items-center mt-7 mb-7">
@@ -114,35 +113,7 @@ function Stock() {
       </Modal>
 
 
-      <Modal isOpen={modalIsOpen1} onRequestClose={closeModal1} style={{ content: { width: '25%', height: '50%', margin: 'auto' } }}>
-        <div>
-          <h2 className='text-2xl' style={{ marginLeft: '10rem' }}>Login</h2>
-          <form>
-            <div>
-              <h1 className='text-xl'>Username</h1>
-              <input type="text" className="block w-full p-3 ps-10 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Username" ></input>
-            </div>
-            <div>
-              <h2 className='text-xl'>Email</h2>
-              <input type="text" className="block w-full p-3 ps-10 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Password" ></input>
-            </div>
-            <div>
-              <h2 className='text-xl'>Phone Number</h2>
-              <input type="text" className="block w-full p-3 ps-10 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Password" ></input>
-            </div>
-            <div>
-              <h2 className='text-xl'>Password</h2>
-              <input type="text" className="block w-full p-3 ps-10 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Password" ></input>
-            </div>
-            <div className='flex ' style={{ marginLeft: '1rem', marginTop: '1rem' }}>
-              <button className="bg-green-500 text-white px-16 py-3 rounded-full hover:bg-green-600 focus:outline-none focus:bg-green-600 mt-8" onClick={closeModal}>CONFIRM</button>
-              <button className="bg-green-500 text-white px-16 py-3 rounded-full hover:bg-green-600 focus:outline-none focus:bg-green-600 mt-8" onClick={closeModal}>CANCEL</button>
-
-            </div>
-          </form>
-
-        </div>
-      </Modal>
+ 
 
       <Modal isOpen={modalIsOpen2} onRequestClose={closeModal2} style={{ content: { width: '30%', height: '30%', margin: 'auto' } }}>
         <div className='lo'>

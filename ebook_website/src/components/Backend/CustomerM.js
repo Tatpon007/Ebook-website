@@ -35,6 +35,9 @@ function CustomerM() {
                 <Link to="/CustomerM" className="mx-10 text-xl">Customer Support Management</Link>
             </div>
 
+            <div className='container mx-auto'>
+                <h1 className='text-4xl font-bold' style={{ marginTop: '2rem', marginLeft: '0rem' }}>CUSTOMER SUPPORT MANAGEMENT</h1>
+            </div>
             <div class="flex justify-center items-center mt-7 mb-7">
                 <div class="overflow-x-auto w-11/12">
                     <table class="w-full bg-white shadow-md rounded border border-gray-300">
