@@ -1,6 +1,16 @@
-import React  from 'react'
+import React, { useState } from 'react'
+import Modal from 'react-modal';
 import { Link } from "react-router-dom"
 function Product() {
+    const [modalIsOpen, setModalIsOpen] = useState(false);
+    const openModal = () => {
+        setModalIsOpen(true);
+      };
+    
+      const closeModal = () => {
+        setModalIsOpen(false);
+      };
+    
     return (
         <div>
             <div className='bg-white-300 text-dark'>
@@ -29,7 +39,7 @@ function Product() {
                             <p class="text-sm font-semibold mb-1">Pages: <span class="font-normal">96p</span></p>
                             <p class="text-sm font-semibold mb-1">Ebook ID: <span class="font-normal">1203</span></p>
                             <p class="text-2xl font-bold my-4">THB 100</p>
-                            <button class="bg-white-500 text-black px-6 py-2 mr-2 rounded-full shadow-md hover:bg-white-600 focus:outline-2 focus:bg-green-600">Read Sample</button>
+                            <button class="bg-white-500 text-black px-6 py-2 mr-2 rounded-full shadow-md hover:bg-white-600 focus:outline-2 focus:bg-green-600"onClick={openModal}>Read Sample</button>
                             <button class="bg-green-500 text-white px-6 py-2  rounded-full hover:bg-green-600 focus:outline-none focus:bg-green-600">Add to Cart</button>
                           
                         </div>
@@ -49,7 +59,14 @@ function Product() {
             </div>
 
             
+            <Modal isOpen={modalIsOpen} onRequestClose={closeModal} style={{ content: { width: '50%', height: '60%', margin: 'auto' } }}>
+                    <div className='lo'>
+                        <div>
+                            <img src='https://via.placeholder.com/1280x800' alt='Book Cover' class="rounded" />
+                        </div>
 
+                    </div>
+                </Modal>
 
         </div>
 

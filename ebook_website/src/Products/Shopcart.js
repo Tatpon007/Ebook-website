@@ -27,13 +27,14 @@ function Shopcart() {
                             </div>
                             <button class="text-xs">X</button>
                         </div>
-                        {/* <!-- ... other items --> */}
+                       <img src='https://via.placeholder.com/192x280' alt='Book Cover' />
                     </div>
 
                     {/* <!-- Order Summary --> */}
                     <div class="w-full md:w-2/5 bg-gray-100 p-4">
                         <div class="flex justify-between mb-2">
                             <p>Subtotal</p>
+                            <p>100</p>
                             <p>THB Total</p>
                         </div>
                         {/* <!-- Coupon Code --> */}
@@ -44,6 +45,7 @@ function Shopcart() {
                         {/* <!-- Total --> */}
                         <div class="flex justify-between mb-2 font-bold">
                             <p>Total</p>
+                            <p> 100 </p>
                             <p>THB Total</p>
                         </div>
                         {/* <!-- Checkout Button --> */}

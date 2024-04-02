@@ -24,7 +24,7 @@ function Home() {
               รายละเอียด
             </div>
             <div>
-              <button className="btn-details ">ราคา</button>
+            <Link to= "/Product" className="btn-details ">ราคา</Link>
             </div>
           </div>
 
@@ -35,7 +35,7 @@ function Home() {
               รายละเอียด
             </div>
             <div>
-              <button className="btn-details ">ราคา</button>
+            <Link to= "/Product" className="btn-details ">ราคา</Link>
             </div>
           </div>
 
@@ -46,7 +46,7 @@ function Home() {
               รายละเอียด
             </div>
             <div>
-              <button className="btn-details">ราคา</button>
+            <Link to= "/Product" className="btn-details ">ราคา</Link>
             </div>
           </div>
 
@@ -56,7 +56,7 @@ function Home() {
               รายละเอียด
             </div>
             <div>
-              <button className="btn-details ">ราคา</button>
+            <Link to= "/Product" className="btn-details ">ราคา</Link>
             </div>
           </div>
 
@@ -66,7 +66,7 @@ function Home() {
               รายละเอียด
             </div>
             <div>
-              <button className="btn-details ">ราคา</button>
+            <Link to= "/Product" className="btn-details ">ราคา</Link>
             </div>
           </div>
         </div>
@@ -79,7 +79,7 @@ function Home() {
               รายละเอียด
             </div>
             <div>
-              <button className="btn-details ">ราคา</button>
+            <Link to= "/Product" className="btn-details ">ราคา</Link>
             </div>
           </div>
 
@@ -89,7 +89,7 @@ function Home() {
               รายละเอียด
             </div>
             <div>
-              <button className="btn-details ">ราคา</button>
+            <Link to= "/Product" className="btn-details ">ราคา</Link>
             </div>
           </div>
 
@@ -99,7 +99,7 @@ function Home() {
               รายละเอียด
             </div>
             <div>
-              <button className="btn-details ">ราคา</button>
+            <Link to= "/Product" className="btn-details ">ราคา</Link>
             </div>
           </div>
 
@@ -109,7 +109,7 @@ function Home() {
               รายละเอียด
             </div>
             <div>
-              <button className="btn-details ">ราคา</button>
+            <Link to= "/Product" className="btn-details ">ราคา</Link>
             </div>
           </div>
 
@@ -119,7 +119,7 @@ function Home() {
               รายละเอียด
             </div>
             <div>
-              <button className="btn-details ">ราคา</button>
+            <Link to= "/Product" className="btn-details ">ราคา</Link>
             </div>
           </div>
         </div>
@@ -131,7 +131,7 @@ function Home() {
               รายละเอียด
             </div>
             <div>
-              <button className="btn-details ">ราคา</button>
+            <Link to= "/Product" className="btn-details ">ราคา</Link>
             </div>
           </div>
 
@@ -141,7 +141,7 @@ function Home() {
               รายละเอียด
             </div>
             <div>
-              <button className="btn-details ">ราคา</button>
+            <Link to= "/Product" className="btn-details ">ราคา</Link>
             </div>
           </div>
 
@@ -151,7 +151,7 @@ function Home() {
               รายละเอียด
             </div>
             <div>
-              <button className="btn-details ">ราคา</button>
+            <Link to= "/Product" className="btn-details ">ราคา</Link>
             </div>
           </div>
 
@@ -161,7 +161,7 @@ function Home() {
               รายละเอียด
             </div>
             <div>
-              <button className="btn-details ">ราคา</button>
+            <Link to= "/Product" className="btn-details ">ราคา</Link>
             </div>
           </div>
 
@@ -171,7 +171,7 @@ function Home() {
               รายละเอียด
             </div>
             <div>
-              <button className="btn-details ">ราคา</button>
+            <Link to= "/Product" className="btn-details ">ราคา</Link>
             </div>
           </div>
         </div>
@@ -185,7 +185,7 @@ function Home() {
               รายละเอียด
             </div>
             <div>
-              <button className="btn-details ">ราคา</button>
+            <Link to= "/Product" className="btn-details ">ราคา</Link>
             </div>
           </div>
 
@@ -195,7 +195,7 @@ function Home() {
               รายละเอียด
             </div>
             <div>
-              <button className="btn-details ">ราคา</button>
+            <Link to= "/Product" className="btn-details ">ราคา</Link>
             </div>
           </div>
 
@@ -205,7 +205,7 @@ function Home() {
               รายละเอียด
             </div>
             <div>
-              <button className="btn-details ">ราคา</button>
+            <Link to= "/Product" className="btn-details ">ราคา</Link>
             </div>
           </div>
 
@@ -215,7 +215,7 @@ function Home() {
               รายละเอียด
             </div>
             <div>
-              <button className="btn-details ">ราคา</button>
+            <Link to= "/Product" className="btn-details ">ราคา</Link>
             </div>
           </div>
 
@@ -225,7 +225,7 @@ function Home() {
               รายละเอียด
             </div>
             <div>
-              <button className="btn-details ">ราคา</button>
+            <Link to= "/Product" className="btn-details ">ราคา</Link>
             </div>
           </div>
         </div>
@@ -238,7 +238,7 @@ function Home() {
               รายละเอียด
             </div>
             <div>
-              <button className="btn-details ">ราคา</button>
+            <Link to= "/Product" className="btn-details ">ราคา</Link>
             </div>
           </div>
 
@@ -248,7 +248,7 @@ function Home() {
               รายละเอียด
             </div>
             <div>
-              <button className="btn-details ">ราคา</button>
+            <Link to= "/Product" className="btn-details ">ราคา</Link>
             </div>
           </div>
 
@@ -258,7 +258,7 @@ function Home() {
               รายละเอียด
             </div>
             <div>
-              <button className="btn-details ">ราคา</button>
+            <Link to= "/Product" className="btn-details ">ราคา</Link>
             </div>
           </div>
 
@@ -268,7 +268,7 @@ function Home() {
               รายละเอียด
             </div>
             <div>
-              <button className="btn-details ">ราคา</button>
+            <Link to= "/Product" className="btn-details ">ราคา</Link>
             </div>
           </div>
 
@@ -278,7 +278,7 @@ function Home() {
               รายละเอียด
             </div>
             <div>
-              <button className="btn-details ">ราคา</button>
+            <Link to= "/Product" className="btn-details ">ราคา</Link>
             </div>
           </div>
 
@@ -293,7 +293,7 @@ function Home() {
               รายละเอียด
             </div>
             <div>
-              <button className="btn-details ">ราคา</button>
+            <Link to= "/Product" className="btn-details ">ราคา</Link>
             </div>
           </div>
 
@@ -303,7 +303,7 @@ function Home() {
               รายละเอียด
             </div>
             <div>
-              <button className="btn-details ">ราคา</button>
+            <Link to= "/Product" className="btn-details ">ราคา</Link>
             </div>
           </div>
 
@@ -313,7 +313,7 @@ function Home() {
               รายละเอียด
             </div>
             <div>
-              <button className="btn-details ">ราคา</button>
+            <Link to= "/Product" className="btn-details ">ราคา</Link>
             </div>
           </div>
 
@@ -323,7 +323,7 @@ function Home() {
               รายละเอียด
             </div>
             <div>
-              <button className="btn-details ">ราคา</button>
+            <Link to= "/Product" className="btn-details ">ราคา</Link>
             </div>
           </div>
 
@@ -333,7 +333,7 @@ function Home() {
               รายละเอียด
             </div>
             <div>
-              <button className="btn-details ">ราคา</button>
+            <Link to= "/Product" className="btn-details ">ราคา</Link>
             </div>
           </div>
 
