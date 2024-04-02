@@ -35,21 +35,40 @@ function Navbar() {
     const [login, setLogin] = useState({ username: "", password: "" });
     const [password, setPassword] = useState("");
     const [username, setUsername] = useState("");
+    const [email,setEmail] = useState("");
+    const [phone,setPhone] = useState("");
     const [errorMessage, setErrorMessage] = useState(""); // State to hold error message
 
 
     const usernameOnChange = (event) => {
         setUsername(event.target.value);
+        console.log(1) ;
     }
 
     const passwordOnChange = (event) => {
         setPassword(event.target.value);
     }
+    const emailOnChange = (event) => {
+      setEmail(event.target.value);
+  }
+  const phoneOnChange = (event) => {
+      setPhone(event.target.value);
+  }
+
+  const toregister = (event) =>{
+    event.preventDefault(); // Prevent form submission
+    user.register({username,password,email,phone}) ;
+      if (!user.status) {
+          setErrorMessage("name or email or phone is again"); // Set error message
+      }else{
+          setstatuslogin(true) ;
+          setErrorMessage("correct") ;
+      }
+  }
 
     const toLogin = (event) => {
       event.preventDefault(); // Prevent form submission
         user.login({username,password})
-      // Check if login status is still false
       if (!user.status) {
           setErrorMessage("Username or password is incorrect."); // Set error message
       }else{
@@ -58,10 +77,12 @@ function Navbar() {
       }
   }
     
-  if(!statuslogin){
   return (
+    <div>
     <nav className="bg-gradient-to-r from-green-500 to-green-300">
+      
       <div className="flex flex-wrap items-center  mx-auto p-4">
+        
         <Link to="/Home" className="flex items-center space-x-3 rtl:space-x-reverse">
           <span className="text-2xl font-semibold whitespace-nowrap dark:text-white">Ebook</span>
         </Link>
@@ -96,7 +117,7 @@ function Navbar() {
           </div>
 
         </div>
-        <Modal isOpen={modalIsOpen &&!isRegistering} onRequestClose={closeModal} style={{ content: { width: '25%', height: '50%', margin: 'auto' } }}>
+        <Modal isOpen={modalIsOpen &&!isRegistering&&!statuslogin} onRequestClose={closeModal} style={{ content: { width: '25%', height: '50%', margin: 'auto' } }}>
         <form onSubmit={toLogin}>
             <p className='show error'>{errorMessage}</p>
             <div className="user">
@@ -118,34 +139,33 @@ function Navbar() {
           
 
         </Modal>
-        <Modal isOpen={modalIsOpens} onRequestClose={closeRE} style={{ content: { width: '25%', height: '50%', margin: 'auto' } }}>
-          <div>
+        <Modal isOpen={modalIsOpens&&!statuslogin} onRequestClose={closeRE} style={{ content: { width: '25%', height: '50%', margin: 'auto' } }}>
+          <div onSubmit={toregister}> 
             <h2 className='text-2xl' style={{ marginLeft: '10rem' }}>Login</h2>
             <form>
               <div>
                 <h1 className='text-xl'>Email</h1>
-                <input type="text" className="block w-full p-3 ps-10 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Username" ></input>
+                <input type="text" onChange={emailOnChange} className="block w-full p-3 ps-10 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Username" ></input>
               </div>
               <div>
                 <h2 className='text-xl'>Username</h2>
-                <input type="text" className="block w-full p-3 ps-10 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Password" ></input>
+                <input type="text" onChange={usernameOnChange} className="block w-full p-3 ps-10 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Password" ></input>
               </div>
               <div>
                 <h2 className='text-xl'>Password</h2>
-                <input type="text" className="block w-full p-3 ps-10 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Password" ></input>
+                <input type="text" onChange = {passwordOnChange}className="block w-full p-3 ps-10 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Password" ></input>
               </div>
               <div>
                 <h2 className='text-xl'>Confirm Password</h2>
-                <input type="text" className="block w-full p-3 ps-10 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Password" ></input>
+                <input type="text" onChange = {phoneOnChange}className="block w-full p-3 ps-10 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Password" ></input>
               </div>
               <div className='flex ' style={{ marginLeft: '1rem', marginTop: '1rem' }}>
-                <button class="bg-green-500 text-white px-16 py-3 rounded-full hover:bg-green-600 focus:outline-none focus:bg-green-600" style={{ marginTop: '1rem' }}>REGISTER</button>
+                <button type='submit' class="bg-green-500 text-white px-16 py-3 rounded-full hover:bg-green-600 focus:outline-none focus:bg-green-600" style={{ marginTop: '1rem' }}>REGISTER</button>
               </div>
             </form>
             
           </div>
-
-        </Modal>
+          </Modal>
 
 
 
@@ -154,11 +174,11 @@ function Navbar() {
 
       </div>
     </nav>
+    {statuslogin && (<User/>)}
+    </div>
 
-  )}else{
-    return(  <Link to="/User" className="mx-10 text-xl"></Link>) ;
-
-  }
+  ) ;
+  
 }
 
 export default Navbar

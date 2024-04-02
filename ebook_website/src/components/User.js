@@ -1,7 +1,9 @@
 import React from 'react'
 import { Link } from "react-router-dom"
+import Navbar from './Navbar';
 function User() {
     return (
+        
         <div>
             <div className='bg-white-300 text-dark'>
                 <div className='mx-auto text-center font-serif '>

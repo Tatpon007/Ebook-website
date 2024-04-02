@@ -1,5 +1,5 @@
 # Use an official Node.js runtime as the base image
-FROM node:14-alpine 
+FROM node:14-alpine
 
 # Set the working directory in the container
 WORKDIR /app
@@ -19,10 +19,9 @@ RUN npm run build
 # Expose the port on which your React app will run
 EXPOSE 3000
 
-# Set environment variables
-ENV NODE_ENV=production
+# Set environment variables (optional)
+# ENV NODE_ENV=production
 
 # Command to run the React app
 CMD ["npm", "start"]
-
 
