@@ -29,7 +29,6 @@ function Payment2() {
                     </div>
                     {/* <!-- Repeat other payment method entries --> */}
                 </div>
-
                 {/* <!-- Action Buttons --> */}
                 <div class="flex space-x-4 mt-6">
                     <Link to ='/Payment'button class="bg-gray-200 hover:bg-gray-300 text-black font-bold py-2 px-4 rounded-lg transition duration-200 ease-in-out transform hover:scale-105">
@@ -40,13 +39,7 @@ function Payment2() {
                     </Link>
                 </div>
             </div>
-
-
-
-
-
         </div>
     )
 }
-
 export default Payment2

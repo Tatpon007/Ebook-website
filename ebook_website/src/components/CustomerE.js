@@ -197,18 +197,8 @@ function CustomerE() {
                     </div>
 
                 </Modal>
-
             </div>
-
-
         </div>
-
-
-
-
-
-
-
 
     );
 }

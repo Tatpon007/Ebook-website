@@ -45,42 +45,49 @@ function Shipping() {
                     <div className='boxs'>
                         <ul>
                             <li className='text-xl'>First Name</li>
-                            <input type="text" className="block w-full p-1 ps-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" style={{ width: '20rem' }} placeholder="Username" ></input>
+                            <input type="text" className="block w-full p-1 ps-2 text-gray-900 border border-gray-300 rounded-lg 
+                            bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 
+                            dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" style={{ width: '20rem' }} placeholder="Username" ></input>
                         </ul>
 
                         <ul className='a' style={{ marginLeft: '2rem' }}>
                             <li className='text-xl'>Address Detail</li>
-                            <input type="text" className="block w-full p-1 ps-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" style={{ width: '20rem' }} placeholder="Email" ></input>
+                            <input type="text" className="block w-full p-1 ps-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 
+                            focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white 
+                            dark:focus:ring-blue-500 dark:focus:border-blue-500" style={{ width: '20rem' }} placeholder="Email" ></input>
                         </ul>
 
                         <ul className='a' style={{ marginTop: '5rem', marginLeft: '-42rem' }}>
                             <li className='text-xl'>Last Name</li>
-                            <input type="text" className="block w-full p-1 ps-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" style={{ width: '20rem' }} placeholder="Email" ></input>
+                            <input type="text" className="block w-full p-1 ps-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 
+                            focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white 
+                            dark:focus:ring-blue-500 dark:focus:border-blue-500" style={{ width: '20rem' }} placeholder="Email" ></input>
                         </ul>
 
 
                         <ul className='a' style={{ marginTop: '10rem', marginLeft: '-20rem' }}>
                             <li className='text-xl'>Phone number</li>
-                            <input type="text" className="block w-full p-1 ps-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" style={{ width: '20rem' }} placeholder="Phone Number" ></input>
+                            <input type="text" className="block w-full p-1 ps-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 
+                            focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white
+                             dark:focus:ring-blue-500 dark:focus:border-blue-500" style={{ width: '20rem' }} placeholder="Phone Number" ></input>
                         </ul>
 
                         <ul className='a' style={{ marginTop: '5rem', marginLeft: '2rem' }}>
                             <li className='text-xl'>Post Code</li>
-                            <input type="text" className="block w-full p-1 ps-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" style={{ width: '20rem' }} placeholder="Email" ></input>
+                            <input type="text" className="block w-full p-1 ps-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 
+                            focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white
+                             dark:focus:ring-blue-500 dark:focus:border-blue-500" style={{ width: '20rem' }} placeholder="Email" ></input>
                         </ul>
 
 
 
                         <div className='b' style={{ marginTop: '15rem', marginLeft: '-35rem' }}>
-                            <Link to="/ShippingEDIT" class="bg-green-500 text-white px-6 py-2 rounded-full hover:bg-green-600 focus:outline-none focus:bg-green-600">EDIT</Link>
+                            <Link to="/ShippingEDIT" class="bg-green-500 text-white px-6 py-2 rounded-full hover:bg-green-600
+                             focus:outline-none focus:bg-green-600">EDIT</Link>
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
-
             <Modal isOpen={modalIsOpen5} onRequestClose={closeModal5} style={{ content: { width: '25%', height: '50%', margin: 'auto' } }}>
                     <div className='lo'>
                         <h2 className='text-2xl' style={{ marginLeft: '1rem' }}>Are you sure to delete your account?</h2>
@@ -89,28 +96,18 @@ function Shipping() {
                                 <h1 className='flex text-sm'>You will not be able to log in again to this account if you delete your account.</h1>
                             </div>
                             <div className='del' style={{ marginLeft: '2rem', marginTop: '3rem' }}>
-                                <button class="bg-green-500 text-white px-6 py-2 rounded-full hover:bg-green-600 focus:outline-none focus:bg-green-600">CANCLE</button>
+                                <button class="bg-green-500 text-white px-6 py-2 rounded-full hover:bg-green-600 focus:outline-none
+                                 focus:bg-green-600">CANCLE</button>
                             </div>
                             <div className='flex ' style={{ marginLeft: '15rem', marginTop: '-2.5rem' }}>
-                                <button class="bg-red-500 text-white px-6 py-2 rounded-full hover:bg-orange-600 focus:outline-none focus:bg-yellow-600">DELETE</button>
+                                <button class="bg-red-500 text-white px-6 py-2 rounded-full hover:bg-orange-600 focus:outline-none 
+                                focus:bg-yellow-600">DELETE</button>
                             </div>
                         </form>
                     </div>
 
                 </Modal>
-
-
-
         </div>
-
-
-
-
-
-
-
-
     );
 }
-
 export default Shipping;

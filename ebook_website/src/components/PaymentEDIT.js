@@ -41,23 +41,18 @@ function PaymentEDIT() {
                             <li className='text-xl'>Card Number</li>
                             <input type="text" className="block w-full p-1 ps-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" style={{ width: '20rem' }} placeholder="Email" ></input>
                         </ul>
-
                         <ul className='a' style={{ marginTop: '5rem', marginLeft: '-42rem' }}>
                             <li className='text-xl'>Last Name</li>
                             <input type="text" className="block w-full p-1 ps-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" style={{ width: '20rem' }} placeholder="Email" ></input>
                         </ul>
-
-
                         <ul className='a' style={{ marginTop: '10rem', marginLeft: '-20rem' }}>
                             <li className='text-xl'>Email</li>
                             <input type="text" className="block w-full p-1 ps-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" style={{ width: '20rem' }} placeholder="Phone Number" ></input>
                         </ul>
-
                         <ul className='a' style={{ marginTop: '5rem', marginLeft: '2rem' }}>
                             <li className='text-xl'>Expiration Date</li>
                             <input type="text" className="block w-full p-1 ps-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" style={{ width: '20rem' }} placeholder="Email" ></input>
                         </ul>
-
                         <ul className='a' style={{ marginTop: '10rem', marginLeft: '-20rem' }}>
                             <li className='text-xl'>CVC</li>
                             <input type="text" className="block w-full p-1 ps-2 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" style={{ width: '20rem' }} placeholder="Email" ></input>
@@ -76,20 +71,7 @@ function PaymentEDIT() {
                 </div>
 
             </div>
-
-
-
-
-
         </div>
-
-
-
-
-
-
-
-
     );
 }
 

@@ -31,19 +31,12 @@ function Status() {
 
                 {/* <!-- Action Buttons --> */}
                 <div class="flex space-x-4 mt-6">
-
                     <Link to ='/Home'button class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-lg transition duration-200 ease-in-out transform hover:scale-105">
                         Home
                     </Link>
                 </div>
             </div>
-
-
-
-
-
         </div>
     )
 }
-
 export default Status

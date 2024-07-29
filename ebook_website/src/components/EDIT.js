@@ -66,20 +66,7 @@ function EDIT() {
                 </div>
 
             </div>
-
-
-
-
-
         </div>
-
-
-
-
-
-
-
-
     );
 }
 

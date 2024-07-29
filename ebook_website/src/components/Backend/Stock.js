@@ -113,7 +113,6 @@ function Stock() {
       </Modal>
 
 
- 
 
       <Modal isOpen={modalIsOpen2} onRequestClose={closeModal2} style={{ content: { width: '30%', height: '30%', margin: 'auto' } }}>
         <div className='lo'>

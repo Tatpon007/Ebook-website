@@ -69,14 +69,6 @@ function Product() {
                 </Modal>
 
         </div>
-
-
-
-
-
-
-
-
     );
 }
 

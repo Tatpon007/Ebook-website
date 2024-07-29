@@ -114,18 +114,7 @@ function OrderHi() {
                     </div>
 
                 </Modal>
-
-
-
         </div>
-
-
-
-
-
-
-
-
     );
 }
 

@@ -19,25 +19,21 @@ function Support() {
             <h1 className='text-2xl'>
               Problem Title
             </h1>
-            <input type="text" id="search-navbar" className="block w-full p-3 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search E-Books" style={{ width: '25rem' }} />
-            <h2 className='text-2xl'>
-              Description
+            <input type="text" id="search-navbar" className="block w-full p-3 ps-10 text-sm text-gray-900 border border-gray-300 
+            rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 
+            dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search E-Books" style={{ width: '25rem' }} />
+            <h2 className='text-2xl'> Description
             </h2>
-            <input type="text" id="search-navbar" className="block w-full p-10 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search E-Books" style={{ width: '25rem' }} />
+            <input type="text" id="search-navbar" className="block w-full p-10 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 
+            focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 
+            dark:focus:border-blue-500" placeholder="Search E-Books" style={{ width: '25rem' }} />
           </div>
-
-          <div>
-            <button class="bg-green-500 text-white px-6 py-2 rounded-full hover:bg-green-600 focus:outline-none focus:bg-green-600" style={{ marginLeft: '19rem', marginTop: '2rem' }}>Add to Cart</button>
+          <div><button class="bg-green-500 text-white px-6 py-2 rounded-full hover:bg-green-600 focus:outline-none focus:bg-green-600" 
+          style={{ marginLeft: '19rem', marginTop: '2rem' }}>Add to Cart</button>
           </div>
-
-
         </div>
-
       </div>
-
-
     </div>
   );
 }
-
 export default Support

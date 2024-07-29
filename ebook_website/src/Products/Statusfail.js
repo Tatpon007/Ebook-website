@@ -15,7 +15,6 @@ function Statusfail() {
             <div class="flex flex-col items-center my-8">
                 {/* <!-- Title --> */}
                 <h2 class="text-4xl font-bold mb-6">ORDER STATUS</h2>
-
                 {/* <!-- Payment Methods List --> */}
                 <div class="space-y-4">
                     {/* <!-- Each card would repeat for each payment method --> */}
@@ -37,13 +36,7 @@ function Statusfail() {
                     </Link>
                 </div>
             </div>
-
-
-
-
-
         </div>
     )
 }
-
 export default Statusfail

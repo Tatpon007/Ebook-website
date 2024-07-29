@@ -1,11 +1,11 @@
 .cropped-image {
-    width: 190px; /* ปรับขนาดของรูปภาพตามที่ต้องการ */
-    height: 392.66px; /* ปรับขนาดของรูปภาพตามที่ต้องการ */
-    border-radius: 10px; /* เพิ่มขอบมนเข้าไป */
-    border: 2px solid black; /* เพิ่มเส้นขอบสีดำ */
+    width: 190px; 
+    height: 392.66px; 
+    border-radius: 10px; 
+    border: 2px solid black;
     margin-left: -100px;
     margin-top: 50px;
-    position: relative; /* เพิ่ม position เพื่อให้สามารถใช้ position:absolute ได้ */
+    position: relative; 
   }
   
   .btn-details {
@@ -17,60 +17,60 @@
     border-radius: 15rem;
     box-shadow: 10px 10px 36px -10px rgba(0,0,0,0.75);
     outline: none;
-    position: absolute; /* ให้ปุ่มอยู่ในโหมด absolute */
-    top: 20; /* จุดเริ่มต้นจากขอบบนของ .cropped-image */
-    right: 0; /* ปรับตำแหน่งให้ชิดขอบขวาของ .cropped-image */
+    position: absolute; 
+    top: 20; 
+    right: 0; 
   }
   .btn-details:active {
     background-color: #10B981;;
   }
 
   .cropped-image2 {
-    width: 190px; /* ปรับขนาดของรูปภาพตามที่ต้องการ */
-    height: 392.66px; /* ปรับขนาดของรูปภาพตามที่ต้องการ */
-    border-radius: 10px; /* เพิ่มขอบมนเข้าไป */
-    border: 2px solid black; /* เพิ่มเส้นขอบสีดำ */
+    width: 190px; 
+    height: 392.66px; 
+    border-radius: 10px; 
+    border: 2px solid black;
     margin-left: 200px;
     margin-top: 50px;
-    position: relative; /* เพิ่ม position เพื่อให้สามารถใช้ position:absolute ได้ */
+    position: relative;
   }
   .ระยะห่างระหว่างช่องebookแถว2{
     margin-top:-2213px;
   }
   .cropped-image3 {
-    width: 190px; /* ปรับขนาดของรูปภาพตามที่ต้องการ */
-    height: 392.66px; /* ปรับขนาดของรูปภาพตามที่ต้องการ */
-    border-radius: 10px; /* เพิ่มขอบมนเข้าไป */
-    border: 2px solid black; /* เพิ่มเส้นขอบสีดำ */
+    width: 190px; 
+    height: 392.66px; 
+    border-radius: 10px; 
+    border: 2px solid black;
     margin-left: 500px;
     margin-top: 50px;
-    position: relative; /* เพิ่ม position เพื่อให้สามารถใช้ position:absolute ได้ */
+    position: relative; 
   }
   .ระยะห่างระหว่างช่องebookแถว3{
     margin-top:-2213px;
   }
 
   .cropped-image4 {
-    width: 190px; /* ปรับขนาดของรูปภาพตามที่ต้องการ */
-    height: 392.66px; /* ปรับขนาดของรูปภาพตามที่ต้องการ */
-    border-radius: 10px; /* เพิ่มขอบมนเข้าไป */
-    border: 2px solid black; /* เพิ่มเส้นขอบสีดำ */
+    width: 190px; 
+    height: 392.66px; 
+    border-radius: 10px; 
+    border: 2px solid black; 
     margin-left: 800px;
     margin-top: 50px;
-    position: relative; /* เพิ่ม position เพื่อให้สามารถใช้ position:absolute ได้ */
+    position: relative; 
   }
   .ระยะห่างระหว่างช่องebookแถว4{
     margin-top:-2213px;
   }
 
   .cropped-image5 {
-    width: 190px; /* ปรับขนาดของรูปภาพตามที่ต้องการ */
-    height: 392.66px; /* ปรับขนาดของรูปภาพตามที่ต้องการ */
-    border-radius: 10px; /* เพิ่มขอบมนเข้าไป */
-    border: 2px solid black; /* เพิ่มเส้นขอบสีดำ */
+    width: 190px; 
+    height: 392.66px; 
+    border-radius: 10px; 
+    border: 2px solid black;
     margin-left: 1100px;
     margin-top: 50px;
-    position: relative; /* เพิ่ม position เพื่อให้สามารถใช้ position:absolute ได้ */
+    position: relative;
   }
   .ระยะห่างระหว่างช่องebookแถว5{
     margin-top:-2213px;
@@ -78,23 +78,23 @@
 
 
   .cropped-image6 {
-    width: 190px; /* ปรับขนาดของรูปภาพตามที่ต้องการ */
-    height: 392.66px; /* ปรับขนาดของรูปภาพตามที่ต้องการ */
-    border-radius: 10px; /* เพิ่มขอบมนเข้าไป */
-    border: 2px solid black; /* เพิ่มเส้นขอบสีดำ */
+    width: 190px; 
+    height: 392.66px; 
+    border-radius: 10px; 
+    border: 2px solid black;
     margin-left: 1400px;
     margin-top: 50px;
-    position: relative; /* เพิ่ม position เพื่อให้สามารถใช้ position:absolute ได้ */
+    position: relative; 
   }
   .ระยะห่างระหว่างช่องebookแถว6{
     margin-top:-2213px;
   }
 
   .sup{
-    width: 820px; /* ปรับขนาดของรูปภาพตามที่ต้องการ */
-    height: 393px; /* ปรับขนาดของรูปภาพตามที่ต้องการ */
-    border-radius: 10px; /* เพิ่มขอบมนเข้าไป */
-    border: 2px solid black; /* เพิ่มเส้นขอบสีดำ */
+    width: 820px; 
+    height: 393px; 
+    border-radius: 10px; 
+    border: 2px solid black;
     margin-left: 600px;
     margin-top: 50px;
   }
@@ -136,8 +136,8 @@
   border: 1px solid #ccc;
   padding: 10px;
   border-radius: 5px;
-  width: 300px; /* ปรับขนาดของรูปภาพตามที่ต้องการ */
-  height: 600px; /* ปรับขนาดของรูปภาพตามที่ต้องการ */
+  width: 300px; 
+  height: 600px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -155,14 +155,14 @@
   border: 1px solid #ccc;
   padding: 10px;
   border-radius: 10px;
-  width: 800px; /* ปรับขนาดของรูปภาพตามที่ต้องการ */
-  height: 600px; /* ปรับขนาดของรูปภาพตามที่ต้องการ */
+  width: 800px; 
+  height: 600px; 
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
   margin-left: 550px;
   margin-top: -600px;
 }
 
 .text-left py-3 uppercase font-semibold text-sm border-b border-gray-300{
-  padding-left: 200rem/* 16px */;
-  padding-right: 200rem/* 16px */;
+  padding-left: 200rem;
+  padding-right: 200rem;
 }
